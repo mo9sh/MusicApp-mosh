@@ -260,3 +260,20 @@ h3 {
 
 }
  
+
+@media screen and (min-width: 410px) and (max-width : 600px) {
+  body {
+    min-height: 100vh;
+  }
+  .player-container {
+    height: 561px;
+    width: 296px;
+    background: whitesmoke;
+    box-shadow: 0 5px 30px rgb(0 0 0 / 50%);
+    overflow: hidden;
+    position: absolute;
+    top: 13px;
+    border-radius: 20px;
+    z-index: 10000px;
+}
+  }
