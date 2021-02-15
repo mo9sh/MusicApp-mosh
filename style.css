@@ -199,7 +199,7 @@ h3 {
 }
 
  
-@media screen and (min-width : 376px)and(max-width: 479px) {
+@media screen and (min-width : 375px)and(max-width: 425px) {
   body {
     height: 100vh;
     position: relative;
