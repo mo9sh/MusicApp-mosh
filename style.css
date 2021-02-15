@@ -199,7 +199,7 @@ h3 {
 }
 
  
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 479px) {
   body {
     height: 100vh;
     position: relative;
@@ -262,7 +262,7 @@ h3 {
 
 }
 /*middle screen mobile*/
-@media screen and (min-width: 414px) and (max-width : 768px) {
+@media screen and (min-width: 479px) and (max-width : 768px) {
   body {
     height: 100vh;
     position: relative;
