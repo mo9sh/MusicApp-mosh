@@ -266,13 +266,13 @@ h3 {
     min-height: 100vh;
   }
   .player-container {
-    height: 561px;
+    height: 560px;
     width: 296px;
     background: whitesmoke;
     box-shadow: 0 5px 30px rgb(0 0 0 / 50%);
     overflow: hidden;
     position: absolute;
-    top: 27px;
+    top: 50px;
     border-radius: 20px;
     z-index: 10000px;
 }
