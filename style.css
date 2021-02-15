@@ -39,7 +39,7 @@ body {
 .player-container {
   height: 630px;
   width: 320px;
-  background:white;
+  background:whitesmoke;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   position: relative;
