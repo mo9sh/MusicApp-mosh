@@ -218,7 +218,7 @@ h3 {
 }
 
 
-@media screen and (min-height : 375px) and (max-width: 414px) {
+@media screen and (max-width: 414px) {
   body {
     height: 100vh;
     position: relative;
@@ -229,9 +229,8 @@ h3 {
     width: 260px;
     overflow: hidden;
     position: absolute;
-    top: 60px;
+    top: 50px;
     border-radius: 20px;
-    overflow: hidden;
 }
 
  .img-container {
