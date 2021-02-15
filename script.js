@@ -33,12 +33,12 @@ const Back = document.querySelector('.back');
 
 let songs = [
     {
-        name: 'kadm',
-        displayName : 'أحبيني بلا عقد',
-        artist: 'كاظم الساهر',
-        background: 'rgb(49 44 44)',
+        name: 'hussin',
+        displayName : 'أحبّك ',
+        artist: 'حسين الجسمي',
+        background : '#c09670',
     },
-    
+      
  
     {
         name: 'Majid',
@@ -55,12 +55,11 @@ let songs = [
     },
 
     {
-        name: 'hussin',
-        displayName : 'أحبّك ',
-        artist: 'حسين الجسمي',
-        background : '#c09670',
+        name: 'kadm',
+        displayName : 'أحبيني بلا عقد',
+        artist: 'كاظم الساهر',
+        background: 'rgb(49 44 44)',
     },
-
 
     {
         name: 'rahma',
