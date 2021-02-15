@@ -32,14 +32,14 @@ const Back = document.querySelector('.back');
 //music list
 
 let songs = [
+    
     {
         name: 'hussin',
-        displayName : 'أحبّك ',
+        displayName : 'مهم جداً',
         artist: 'حسين الجسمي',
         background : '#c09670',
     },
       
- 
     {
         name: 'Majid',
         displayName : 'عطشان ',
