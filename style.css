@@ -22,6 +22,7 @@ body {
   font-weight: 900;
   cursor: pointer;
 
+
   
 }
 
@@ -142,7 +143,8 @@ h3 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 16px 30px rgb(0 0 0 / 50%);
+  -webkit-box-shadow: 0 5px 30px rgb(0 0 0 / 50%);
+  box-shadow: 0 5px 30px rgb(0 0 0 / 50%);
   border-top-left-radius: 50%;
   background:white;
 }
@@ -216,7 +218,7 @@ h3 {
   height: 250px;
   width: 100%;
  
-} .img-container img {box-shadow: 0 5px 25px rgb(0 0 0 / 50%);}
+} .img-container img {box-shadow: 0 5px 25px rgb(0 0 0 / 80%);}
 
 .prograss-container {
   background: rgb(241 230 230);
