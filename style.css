@@ -199,7 +199,7 @@ h3 {
 }
 
  
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 479px) {
   body {
     height: 100vh;
     position: relative;
@@ -269,8 +269,8 @@ h3 {
     overflow: hidden;
   }
   .player-container {
-    height: 630px;
-    width: 320px;
+    height: 500px;
+    width: 260px;
     overflow: hidden;
     position: absolute;
     top: 50px;
