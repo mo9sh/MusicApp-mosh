@@ -228,6 +228,7 @@ h3 {
     width: 260px;
     overflow: hidden;
     position: absolute;
+    top: 60px;
     border-radius: 20px;
 }
 
