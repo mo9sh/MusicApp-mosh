@@ -222,6 +222,7 @@ h3 {
   body {
     height: 100vh;
     position: relative;
+    overflow: hidden;
   }
   .player-container {
     height: 500px;
@@ -230,6 +231,7 @@ h3 {
     position: absolute;
     top: 60px;
     border-radius: 20px;
+    overflow: hidden;
 }
 
  .img-container {
