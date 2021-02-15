@@ -218,16 +218,16 @@ h3 {
 }
 
 
-@media screen and (min-height : 375px) and (max-width: 667px) {
+@media screen and (min-height : 375px) and (max-width: 414px) {
   body {
     height: 100vh;
+    position: relative;
   }
   .player-container {
     height: 500px;
     width: 260px;
     overflow: hidden;
-    position: relative;
-    bottom: 70px;
+    position: absolute;
     border-radius: 20px;
 }
 
