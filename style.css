@@ -304,11 +304,11 @@ h3 {
   background: rgb(241 230 230);
   border-radius: 5px;
   cursor: pointer;
-  margin: 40px 20px;
   height: 4px;
   width: 90%;
   position: absolute;
   top: 49%;
+  left: -4px;
 }
 .text-content {
   margin: 0;
@@ -322,8 +322,8 @@ h3 {
 
 .fas {
   position: relative;
-  bottom: 8px;
-  left: 8px;
+  bottom: 16px;
+  left: 10px;
 }
   }
 
