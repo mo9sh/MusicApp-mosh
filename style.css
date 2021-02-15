@@ -21,6 +21,7 @@ body {
   font-size: 13px;
   font-weight: 900;
   cursor: pointer;
+  position: relative;
 
 
   
@@ -207,6 +208,69 @@ h3 {
   .player-container {
     height: 500px;
     width: 260px;
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    border-radius: 20px;
+    background: whitesmoke;
+}
+
+ .img-container {
+  height: 250px;
+  width: 100%;
+ 
+} .img-container img {box-shadow: 0 5px 25px rgb(0 0 0 / 80%);}
+
+.prograss-container {
+  background: rgb(241 230 230);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 40px 13px;
+    height: 4px;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+  
+}
+ 
+.text-content {
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  bottom: 22%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.play-control {
+  position: absolute;
+  bottom: 0;
+  box-shadow: 0 5px 30px rgb(0 0 0 / 50%);
+  -webkit-box-shadow: 0 5px 30px rgb(0 0 0 / 50%);
+  border-top-left-radius: 50%;
+  -webkit-border-top-left-radius : 50%;
+
+
+}
+.fas {
+  margin: 0 15px;
+  position: relative;
+  bottom: 14px;
+  left: 9px;
+   
+}
+
+}
+/*middle screen mobile*/
+@media screen and (min-width: 414px) and (max-width : 768px) {
+  body {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  .player-container {
+    height: 630px;
+    width: 320px;
     overflow: hidden;
     position: absolute;
     top: 50px;
