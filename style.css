@@ -266,8 +266,8 @@ h3 {
 
 }
  
-/*
-@media screen and (min-width: 410px) and (max-width : 768px) {
+ 
+@media screen and (min-width: 768px) and (max-width : 900px) {
   
   *{
     box-sizing: border-box;
@@ -277,19 +277,18 @@ h3 {
     min-height: 100vh;
   }
   .player-container {
-    height: 530px;
-    width: 280px;
+    height: 524px;
+    width: 270px;
     background: whitesmoke;
-    box-shadow: 0 5px 30px rgb(0 0 0 / 50%);
+    box-shadow: 0 15px 30px rgb(0 0 0 / 30%);
     overflow: hidden;
-    position: absolute;
-    top: 25px;
+    position: relative;
     border-radius: 20px;
+    bottom: 199px;
     z-index: 10000px;
 }
-
 .img-container {
-  height: 260px;
+  height: 258px;
   width: 100%;
 }
 .img-container img {
@@ -304,22 +303,35 @@ h3 {
   background: rgb(241 230 230);
   border-radius: 5px;
   cursor: pointer;
+  margin: 40px 20px;
   height: 4px;
   width: 90%;
   position: absolute;
-  top: 49%;
-  left: -4px;
+  top: 48%;
+  left: -5px;
 }
+
 .text-content {
   margin: 0;
   text-align: center;
   position: absolute;
-  bottom: 25%;
+  bottom: 26%;
   left: 50%;
   transform: translate(-50%);
-
 }
-
+.play-control {
+  position: absolute;
+  top: 77%;
+  width: 100%;
+  height: 131px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0 5px 30px rgb(0 0 0 / 50%);
+  box-shadow: 0 5px 30px rgb(0 0 0 / 50%);
+  border-top-left-radius: 50%;
+  background: white;
+}
 .fas {
   position: relative;
   bottom: 16px;
@@ -328,4 +340,4 @@ h3 {
   }
 
 
-  */
+ 
