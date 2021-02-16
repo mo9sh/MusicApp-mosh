@@ -214,6 +214,7 @@ h3 {
     width: 260px;
     overflow: hidden;
     position: absolute;
+    top: 62px;
     border-radius: 20px;
     background: whitesmoke;
 }
@@ -232,7 +233,7 @@ h3 {
     height: 4px;
     width: 90%;
     position: absolute;
-    top: 50%;
+    top: 48%;
   
 }
  
@@ -240,7 +241,7 @@ h3 {
   margin: 0;
   text-align: center;
   position: absolute;
-  bottom: 22%;
+  bottom: 23%;
   left: 50%;
   transform: translate(-50%);
 }
