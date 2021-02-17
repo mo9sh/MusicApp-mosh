@@ -1,6 +1,7 @@
 const Mainimage = document.getElementById('main-img');
 const Title = document.getElementById('title')
 const Artist = document.getElementById('artist')
+
  
 
 const music = document.querySelector('audio');
@@ -165,11 +166,11 @@ function pauseSong() {
     PLayBtn.classList.replace('fa-pause-circle', 'fa-play-circle');
     music.pause();
 }
-
-
+ 
 //play or pause eventlitner
 
 PLayBtn.addEventListener('click', () => (isPlaying ? pauseSong() : playSong()));
+ 
 
 
 
@@ -180,6 +181,7 @@ function loadSong(song) {
     Artist.textContent = song.artist;
     music.src = `music/${song.name}.mp3`;
     Mainimage.src = `img/${song.name}.jpg`;
+
     prograss.style.background = song.background;
     body.style.background = song.background;
     Duration.style.color = song.background;
