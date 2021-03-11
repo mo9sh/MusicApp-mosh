@@ -32,7 +32,7 @@ const Back = document.querySelector('.back');
 
 //music list
 
-let songs = [
+ let songs = [
     
     {
         name: 'hussin',
@@ -142,8 +142,11 @@ let songs = [
         background : '#433d3c',
     },
     
-     
-]
+]  
+
+
+
+
 
 
 
@@ -189,6 +192,8 @@ function loadSong(song) {
     PLayBtn.style.color = song.background;
     prevBtn.style.color = song.background;
     NextBtn.style.color = song.background;
+
+         
     
 }
 
@@ -227,6 +232,7 @@ function nextSong() {
 //update song time
 
 function UpdatePrograss(e) {
+    
     if (isPlaying) {
         //duration is the time of th song // current time is the begning of the song
         const { duration, currentTime } = e.srcElement;
@@ -258,6 +264,7 @@ function UpdatePrograss(e) {
         CurrentTimeEl.textContent = `${CurrentMinutes} : ${CurrentSecond}`;
 
     }
+     
 }
 
 

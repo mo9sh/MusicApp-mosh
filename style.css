@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lateef&family=Mada:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&family=Lateef&family=Mada:wght@300&display=swap');
-
 *{
   box-sizing: border-box;
 }
@@ -38,8 +37,8 @@ body {
 }
 
 .player-container {
-  height: 593px;
-  width: 305px;
+  height: 35rem;
+  width: 300px;
   background: whitesmoke;
   box-shadow: 0 15px 30px rgb(0 0 0 / 30%);
   overflow: hidden;
@@ -67,7 +66,7 @@ body {
   margin: 0;
   text-align: center;
   position: absolute;
-  bottom: 29%;
+  bottom: 25%;
   left: 50%;
   transform: translate(-50%);
 }
@@ -112,7 +111,7 @@ h3 {
   height: 4px;
   width: 90%;
   position: absolute;
-  top: 46%;
+  top: 49%;
   right: -4px;
 }
 
@@ -238,7 +237,7 @@ h3 {
   margin: 0;
   text-align: center;
   position: absolute;
-  bottom: 24%;
+  bottom: 25%;
   left: 50%;
   transform: translate(-50%);
 }
@@ -274,8 +273,7 @@ h3 {
     min-height: 100vh;
   }
   .player-container {
-    height: 524px;
-    width: 270px;
+    width: 200px;
     background: whitesmoke;
     box-shadow: 0 15px 30px rgb(0 0 0 / 30%);
     overflow: hidden;
@@ -312,7 +310,7 @@ h3 {
   margin: 0;
   text-align: center;
   position: absolute;
-  bottom: 26%;
+  bottom: 25%;
   left: 50%;
   transform: translate(-50%);
 }
@@ -347,8 +345,7 @@ h3 {
     min-height: 100vh;
   }
   .player-container {
-    height: 545px;
-    width: 285px;
+    width: 200px;
     background: whitesmoke;
     box-shadow: 0 15px 30px rgb(0 0 0 / 30%);
     overflow: hidden;
@@ -384,7 +381,7 @@ h3 {
   margin: 0;
   text-align: center;
   position: absolute;
-  bottom: 27%;
+  bottom: 25%;
   left: 50%;
   transform: translate(-50%);
 }
